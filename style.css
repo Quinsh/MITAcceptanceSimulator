@@ -192,3 +192,65 @@ h2{
     display: inline-block;
     font-size: 15px;   
 }
+
+#loginbutton-link{
+    font-style: normal;
+    text-decoration: none;
+    color: #1F2A3B;
+}
+
+#greetingsentence{
+    font-size: 20px;
+}
+
+#yellow{
+    margin-top: 20px;
+    display: block;
+    background-color: rgb(255, 255, 105);
+}
+#yellow>span{
+    display:block;
+}
+.littletitle{
+    display:block;
+    font-size: 22px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+#yellow>:nth-child(2){
+    margin-bottom: 8px;
+}
+#yellow>:nth-child(3){
+    margin-bottom: 8px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#table-recentactivities{
+    display: inline-block;
+    width: 100%;
+    border-collapse: collapse;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #1F2A3B;
+
+}
+
+#tablerafirstrow{
+    background-color: #1F2A3B;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#table1stcolumn{
+    width: 200px;
+
+}
+#table2ndcolumn{
+    width: 90%;
+}
+
+#appfee{
+    color: gray;
+}
