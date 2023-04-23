@@ -15,7 +15,7 @@ body{
     display: flex;
     flex-direction: column;
     width: 90%;
-    height: 600px;
+    min-height: 600px;
     margin: 0 auto;
     background-color: white;
 }
@@ -57,7 +57,9 @@ body{
 }
 
 #space{
-    height: 60px;
+    display: block;
+    margin-bottom: 60px;
+    background-color: black;
 }
 
 #maincontent{
@@ -211,6 +213,9 @@ h2{
 #yellow>span{
     display:block;
 }
+#loggedin-viewupdate a{
+    color: #1F2A3B;
+}
 .littletitle{
     display:block;
     font-size: 22px;
@@ -253,4 +258,39 @@ h2{
 
 #appfee{
     color: gray;
+}
+
+/* acceptance.html from here */
+
+#letter-header1{
+    display: block;
+    height: 30px;
+    text-align: end;
+}
+#logoutsmall{
+    font-size: 8px;
+    font-style: normal;
+}
+#letter-header2{
+    text-align: end;
+    padding-right: 15px;
+}
+
+#letter-date{
+    display: block;
+    margin-bottom: 10px;
+}
+.gap25{
+    display: block;
+    height: 25px;
+}
+.gap3{
+    display: block;
+    height: 3px;
+}
+
+#largerbr{
+    display: block;
+    height: 20px;
+    margin-bottom: 20px;
 }
