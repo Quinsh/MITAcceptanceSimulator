@@ -10,6 +10,15 @@
 </head>
 
 <body>
+    <!-- this is for confetti generation -->
+    <canvas id="my-canvas"></canvas> 
+    <script src="index.min.js"></script>
+    <script>
+        var confettiSettings = { target: 'my-canvas' };
+        var confetti = new ConfettiGenerator(confettiSettings);
+        confetti.render();
+    </script>
+    
     <div id="page">
         <div id="white">
             <hr id="hr1">
@@ -79,6 +88,7 @@
             </div>
         </div>
     </div>
+
 </body>
 
 

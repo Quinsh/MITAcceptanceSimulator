@@ -294,3 +294,12 @@ h2{
     height: 20px;
     margin-bottom: 20px;
 }
+
+/* this is for confetti */
+#my-canvas{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 999;
+}
